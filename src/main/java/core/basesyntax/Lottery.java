@@ -8,6 +8,6 @@ public class Lottery {
         Color [] colors =  Color.values();
         int randomColor = random.nextInt(colors.length);
         int number = random.nextInt(100);
-        return new Ball(colors[randomColor].toString(),number);
+        return new Ball(colors[randomColor].name(),number);
     }
 }
