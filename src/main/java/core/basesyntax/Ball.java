@@ -20,7 +20,7 @@ public class Ball {
         this.number = number;
     }
 
-    public Ball(String color, int number) {
+    public Ball(int number, String color) {
         this.color = color;
         this.number = number;
     }
